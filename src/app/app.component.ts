@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'bind-exercise';
+  oddNumbers: number[] = [];
+  eventNumbers: number[] = [];
+
+  onIntervalFired(firedNumber: number): number {
+    if (firedNumber % 2 === 0) {
+      return this.eventNumbers.push(firedNumber);
+    }
+    return this.oddNumbers.push(firedNumber);
+  }
 }
