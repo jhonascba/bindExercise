@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bind-exercise"
+    }
+  },
+  "defaultProject": "bind-exercise",
+  "cli": {
+    "analytics": false
+  }
 }

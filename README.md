@@ -1,27 +1,21 @@
 # BindExercise
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
 
-## Development server
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" width="40" height="40" />
+          
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 1 - Create three new components: GameControl, Odd and Even;
 
-## Code scaffolding
+## 2 - The GameControl Componenet should have buttons to start and stop the game;
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 3 - When Starting the game, an event (holding a incrementing number) should get emitted each second (ref = setInterval())
 
-## Build
+## 4 - The event should be listenable from outside the component
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## 5 - When stopping the game, no more events should get emitted (clearInterval(ref))
 
-## Running unit tests
+## 6 - A new Odd component should get created for every odd number emitted, the same should happen for the Even Component (on even numbers)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 7 Simply output Odd - Number or Even - NUMBER in the two components
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## 8 Style the element (e.g. paragraph) holding your output text diferently in both components
